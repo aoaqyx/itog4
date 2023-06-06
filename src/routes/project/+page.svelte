@@ -1,6 +1,5 @@
 <svelte:head>
- <title>Портфолиоj
- </title>
+ <title>Портфолио</title>
 </svelte:head>
 
 <div class='container'>
