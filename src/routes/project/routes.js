@@ -1,33 +1,12 @@
 export const routes = [
     {
-      id: 1,
-      title: 'TODO',
-      body: 'Простое и удобное приложение для организации задач. С его помощью вы можете легко создавать, отслеживать и завершать свои ежедневные задачи.',
+        id: 1,
+        title: 'TODO',
+        body: 'Простое и удобное приложение для организации задач. С его помощью вы можете легко создавать, отслеживать и завершать свои ежедневные задачи.',
     },
-  ];
-  В файле +page.svelte замените содержимое на
-  <svelte:head>
-   <title>Портфолио</title>
-  </svelte:head>
-  
-  <div class='container'>
-   <h1>Мои проекты</h1>
-   <div class='apps'>
-    {#each routes as page}
-     <div class='app'>
-      <h2>{page.title}</h2>
-      <p>{page.body}</p>
-      <p class='readmore'>
-       <a class='link' href={`/project/apps/${page.id}`}>
-        Читать далее
-       </a>
-      </p>
-     </div>
-    {/each}
-   </div>
-  </div>
-  <script>
- import { routes } from './routes.js';
+];
+<script>
+import { routes } from './routes.js';
 </script>
 <style>
   .container {
@@ -52,4 +31,3 @@ export const routes = [
    color: rgb(10, 10, 139);
   }
  </style>
-  
