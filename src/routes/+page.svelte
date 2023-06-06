@@ -1,4 +1,4 @@
-<<svelte:head>
+<svelte:head>
     <title>Арсений Одинцов</title>
     </svelte:head>
     
